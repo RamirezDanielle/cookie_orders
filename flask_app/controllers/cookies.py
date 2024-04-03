@@ -3,6 +3,8 @@ from flask_app import app
 
 from flask_app.models.cookie import Cookie
 
+
+
 @app.route('/')
 def index():
     orders = Cookie.get_all()
