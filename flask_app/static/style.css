@@ -3,8 +3,26 @@
     margin: auto;
 }
 
+#cookie_orders {
+    background: brown;
+    
+}
+
 #cookie_orders h1 {
     font-family: "Rubik Moonrocks", sans-serif;
-    font-size: 100px;
-    
+    font-size: 250px;
+    color: pink;
+    line-height: 20%;
+    margin-bottom: 10px;
+    padding-top: 150px;
+}
+
+#cookie_orders table{
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: pink;
 }
