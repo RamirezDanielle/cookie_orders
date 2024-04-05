@@ -5,16 +5,26 @@
 
 #cookie_orders {
     background: brown;
-    
 }
 
 #cookie_orders h1 {
     font-family: "Rubik Moonrocks", sans-serif;
-    font-size: 250px;
+    font-size: 240px;
     color: pink;
-    line-height: 20%;
-    margin-bottom: 10px;
-    padding-top: 150px;
+    line-height: 169px;
+}
+
+#cookie_orders #btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: solid 2px pink;
+    border-radius: 5px;
+    box-shadow: 2px;
+    width: 150px;
+    height: 30px;
+  
+
 }
 
 #cookie_orders table{
@@ -25,7 +35,7 @@
     font-size: 30px;
     text-align: center;
     color: pink;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 #cookie_orders a {
@@ -33,10 +43,12 @@
     color: pink;
 }
 
-/* #cookie_orders thead{
-    padding: 5px;
-} */
-
 #cookie_orders th, td{
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
+
+
+
