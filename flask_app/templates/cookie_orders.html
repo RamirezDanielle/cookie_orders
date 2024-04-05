@@ -20,7 +20,7 @@
         <h1 class="text-center">Orders</h1>
     </div>
     <div class="container col">
-        <table class="table">
+        <table>
             <thead>
                 <tr>
                     <th>Customer Name</th>
@@ -37,12 +37,12 @@
                     <td>{{order.num_boxes}}</td>
                     <td>
                         <a href="/cookie/edit/{{order.id}}" class="p-2">EDIT<a>
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        <a href="/add/order" class="d-flex justify-content-end text-dark"> ORDER</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <a href="/add/order" class="d-flex justify-content-end text-dark"> ORDER</a>
     </div>
 </body>
 

@@ -25,4 +25,18 @@
     font-size: 30px;
     text-align: center;
     color: pink;
+    margin-top: 250px;
+}
+
+#cookie_orders a {
+    text-decoration: none;
+    color: pink;
+}
+
+/* #cookie_orders thead{
+    padding: 5px;
+} */
+
+#cookie_orders th, td{
+    padding: 5px;
 }
